@@ -1,0 +1,90 @@
+.abcd{
+    padding: 0px;
+    margin: 0px;
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(./photo.jpg);
+    background-size: cover;
+    opacity: 0.2;
+   
+    
+}
+.text{
+    color: black;
+    text-shadow: 5px 5px 5px red;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 90px 90px ;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.item{
+    
+    background-color: red;    
+    margin: 3px;
+    padding: 5px;
+}
+.item1{
+    grid-column: 1/2;
+    border-radius: 40px 40px 0px 40px;
+}
+.item2{
+    grid-column: 2/3;
+    border-radius: 40px 40px 40px 0px;
+}
+.item3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 40px 0px 40px 40px;
+}
+.item4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-radius: 0px 40px 40px 40px;
+}
+.text1{
+    color: grey;
+    font-size: medium;
+    position: relative;
+    left: 50px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 0px;
+    position: relative;
+    left: 100px;
+}
+.parent{
+    width: 600;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+    left: 200px;
+
+}
+.child{
+    width: 150px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px dashed red;
+    border-radius: 0px 40px 0px 40px;
+    margin: 10px;
+    padding: 10px;
+}
